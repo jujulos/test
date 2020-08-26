@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>autoscroll.js</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="jquery-3.1.1.js"></script> -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+
+      body {
+        background-color: #ffffff;
+      }
+      .AutoScroll {
+        background-color: #ffffff;
+        color: #fff;
+        position: center;
+        top: 100px;
+        max-height: 800px;
+        overflow-y: scroll;
+        padding: 20px;
+      }
+      .outer {
+        position: center;
+        top: 80px;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+          <div class="AutoScroll scroller" id="id" data-config='{"delay" : 1000 , "amount" : 50}'>
+            <div>
+              <img src="img/01.jpg" alt="" class="center"  >
+              <img src="img/02.jpg" alt="" class="center"  >
+              <img src="img/03.jpg" alt="" class="center"  >
+              <img src="img/04.jpg" alt="" class="center"  >
+              <img src="img/05.jpg" alt="" class="center"  >
+              <img src="img/06.jpg" alt="" class="center"  >
+              <img src="img/07.jpg" alt="" class="center"  >
+              <img src="img/08.jpg" alt="" class="center"  >
+              <img src="img/09.jpg" alt="" class="center"  >
+              <img src="img/10.jpg" alt="" class="center"  >
+              <img src="img/11.jpg" alt="" class="center"  >
+              <img src="img/12.jpg" alt="" class="center"  >
+            </div>
+          </div>
+       
+    
+    <script type="text/javascript" src="autoscroll.js"></script>
+    <script type="text/javascript">
+      $(".id-2").scroller();
+    </script>
+  </body>
+</html>
